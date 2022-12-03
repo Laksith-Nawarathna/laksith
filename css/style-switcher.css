@@ -9,6 +9,11 @@
     z-index: 105;
     border-radius: 5px;
     transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+
+.style-switcher.open{
+    
 }
 
 .style-switcher .s-icon{
