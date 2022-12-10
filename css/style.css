@@ -78,7 +78,7 @@ ul {
     color: white;
 }
 
-#smi-container .smi-icons ion-icon{
+#smi-container .smi-icons i{
     font-size: 1.4rem;
     color: #666;
     padding-left: 10px; 
@@ -92,12 +92,12 @@ ul {
 
 }
 
-#smi-container .smi-icons:hover ion-icon{
+#smi-container .smi-icons:hover i{
     color: white;
 }
 
 #smi-container .smi-icons:nth-child(1):hover{
-    background-color: #1b1c1f;
+    background-color: #149610;
 }
 #smi-container .smi-icons:nth-child(2):hover{
     background-color: #0e76a8;
@@ -117,19 +117,11 @@ ul {
 #smi-container .smi-icons:nth-child(7):hover{
     background-color: #6567a5;
 }
-#smi-container .smi-icons:nth-child(8):hover{
-    background-color: #6567a5;
-}
-#smi-container .smi-icons:nth-child(9):hover{
-    background-color: #6567a5;
-}
-/* #smi-container .smi-icons:nth-child(7):hover{
-    background-color: #6567a5;
-} */
 
-#smi-container .smi-icons:not(.smi-icons:nth-child(10)){
+#smi-container .smi-icons:not(.smi-icons:nth-child(7)){
     border-right:1px solid var(--layout-border-color);
 }
+
 
 
 /* ========================================= */
@@ -267,7 +259,7 @@ ul {
 
 .aside .logo:hover{
     transform: scale(1.2);
-    transition: all ease-out 0.8s;
+    transition: all ease 0.8s;
 }
 
 .aside .nav-toggler {
