@@ -258,8 +258,8 @@ ul {
 }
 
 .aside .logo:hover{
-    transform: scale(1.2);
-    transition: all ease 0.8s;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
 }
 
 .aside .nav-toggler {
@@ -307,6 +307,7 @@ ul {
 
 .aside .nav li a:hover{
     color: var(--skin-color);
+    transition: all ease 0.8s;
 }
 
 .aside .logo a {
@@ -544,6 +545,7 @@ h3.my-profession{
     height: 100%;
     border-radius: 4px;
     background-color: var(--skin-color);
+    transition: 2s ease 0 all;
 }
 
 .about .about-content .skills .skill-item .skill-percent{
@@ -723,6 +725,7 @@ h3.my-profession{
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
+    
 }
 
 .portfolio .portfolio-item-inner{
@@ -730,12 +733,25 @@ h3.my-profession{
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    box-shadow: 10px 10px 10px 4px grey;
+    position: relative;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
     height: 300px;
     display: block;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img:hover{
