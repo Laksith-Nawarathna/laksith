@@ -653,6 +653,57 @@ h3.my-profession{
     color: var(--text-black-700);
 }
 
+
+
+/* Skills */
+
+.skill-title{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: var(--text-black-900);
+}
+
+.frameworks{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.frameworks img{
+    /* padding-right: 10px; */
+}
+
+.db{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.os{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.vcs{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.api-cloud{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+
 /* service */
 
 .service .container{
