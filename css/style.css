@@ -7,6 +7,8 @@
     --bg-black-50: #e8dfec;
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
+    --header-height: 50px;
+    --layout-border-color: lightgray;
 }
 
 body.dark{
@@ -47,7 +49,8 @@ ul {
 /* =================================== */
 
 #header {
-    background-color: var(--skin-color);
+    /* background-color: var(--skin-color); */
+    background-color: rgba(238, 238, 238, 0.6);
     opacity: 0.7;
     position: fixed;
     display: flex;
@@ -56,18 +59,19 @@ ul {
     left: 0;
     right: 0;
     height: 50px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--layout-border-color);
+    height: var(--header-height);
     z-index: 9;
 }
 
 #smi-container{
     padding-right: 10px;
-    height: var(--header-height);
+    float: right;
 }
 
 #smi-container .smi-icons{
     float: left;
-    width: 100px;
+    width: 50px;
     height: 100%;
     padding: 11px 11px;
     cursor: pointer;
@@ -75,7 +79,7 @@ ul {
     font-weight: 500;
     overflow: hidden;
     white-space: nowrap;
-    color: white;
+    /* color: white; */
 }
 
 #smi-container .smi-icons i{
@@ -92,12 +96,20 @@ ul {
 
 }
 
+#smi-container .smi-icons a:hover{
+    color: white;
+}
+
 #smi-container .smi-icons:hover i{
     color: white;
 }
 
+#smi-container .smi-icons a{
+    color: #151515;
+}
+
 #smi-container .smi-icons:nth-child(1):hover{
-    background-color: #149610;
+    background-color: #111111;
 }
 #smi-container .smi-icons:nth-child(2):hover{
     background-color: #0e76a8;
@@ -106,16 +118,25 @@ ul {
     background-color: #00acee;
 }
 #smi-container .smi-icons:nth-child(4):hover{
-    background-color: #3f729b;
+    background-color: #25cf66;
 }
 #smi-container .smi-icons:nth-child(5):hover{
-    background-color: #c4302b;
+    background-color: #ca8326;
 }
 #smi-container .smi-icons:nth-child(6):hover{
-    background-color: #444;
+    background-color: #0cb;
 }
 #smi-container .smi-icons:nth-child(7):hover{
-    background-color: #6567a5;
+    background-color: #5267e0;
+}
+#smi-container .smi-icons:nth-child(8):hover{
+    background-color: #c4302b;
+}
+#smi-container .smi-icons:nth-child(9):hover{
+    background-color: #a81c62;
+}
+#smi-container .smi-icons:nth-child(10):hover{
+    background-color: #ee2828;
 }
 
 #smi-container .smi-icons:not(.smi-icons:nth-child(7)){
