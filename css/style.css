@@ -64,18 +64,17 @@ ul {
     z-index: 9;
 }
 
-#my-logo{
+/* #my-logo{
     width: 50px;
     height: 50px;
-    /* top: 0;
-    left: 320px; */
     padding-left: 320px;
     cursor: pointer;
-}
+} */
 
 #smi-container{
     padding-right: 10px;
     float: right;
+    height: var(--header-height);
 }
 
 #smi-container .smi-icons{
@@ -88,7 +87,6 @@ ul {
     font-weight: 500;
     overflow: hidden;
     white-space: nowrap;
-    /* color: white; */
 }
 
 #smi-container .smi-icons i{
@@ -148,7 +146,7 @@ ul {
     background-color: #ee2828;
 }
 
-#smi-container .smi-icons:not(.smi-icons:nth-child(7)){
+#smi-container .smi-icons:not(.smi-icons:nth-child(10)){
     border-right:1px solid var(--layout-border-color);
 }
 
@@ -337,7 +335,7 @@ ul {
 
 .aside .nav li a:hover{
     color: var(--skin-color);
-    transition: all ease 0.8s;
+    transition: all ease 0.4s;
 }
 
 .aside .logo a {
@@ -458,6 +456,10 @@ h3.my-profession{
     /* background-color: blue; */
     text-align: center;
     position: relative;
+}
+
+.home .home-img img{
+    box-shadow: 10px 10px 10px 4px rgba(42, 42, 43, 0.877);
 }
 
 .home-img::before{
