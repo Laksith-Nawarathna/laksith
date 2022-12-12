@@ -399,12 +399,12 @@ ul {
     margin-right: 15px;
 }
 
-/* .home{
+.home{
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
     background-image: url("/img/matrix-background.webp");
-} */
+}
 
 #home{
     background-image: url("../img/ITSystemsbanners-1604280651735.gif");
@@ -412,6 +412,7 @@ ul {
     background-size: cover;
     /* opacity: 0.7; */
 }
+
 
 .home .home-info{
     flex: 0 0 60%;
